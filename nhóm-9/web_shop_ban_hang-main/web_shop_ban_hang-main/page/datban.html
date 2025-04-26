@@ -1,0 +1,77 @@
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt bàn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/page/datban.css  ">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <div class="container">
+        <div class="form-box">
+            <h1>ĐẶT BÀN</h1>
+            <form action="submit_reservation.php" method="POST" class="form-grid">
+                <div>
+                    <label for="name">Họ và tên:</label>
+                    <input type="text" id="name" name="name" placeholder="Tên của bạn" required>
+                </div>
+                
+                <div>
+                    <label for="email">Email của bạn:</label>
+                    <input type="email" id="email" name="email" placeholder="example@example.com" required>
+                </div>
+                
+                <div>
+                    <label for="phone">Số điện thoại của bạn:</label>
+                    <input type="text" id="phone" name="phone" placeholder="xxxx-xxx-xxx" required>
+                </div>
+                
+                <div>
+                    <label for="date">Bạn có thể đến dùng ngày nào?</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                
+                <div>
+                    <label for="people">Bạn đi mấy người?</label>
+                    <input type="number" id="people" name="people" placeholder="Số người" min="1" max="30" required>
+                </div>
+                
+                <div>
+                    <label for="time">Thời gian bạn đến?</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+            
+                <div>
+                    <label for="seating">Bạn muốn ngồi:</label>
+                    <select id="seating" name="seating">
+                        <option value="trong_nha">Trong nhà</option>
+                        <option value="ngoai_troi">Ngoài trời</option>
+                    </select>
+                </div>
+            
+                <div>
+                    <label for="children">Có bao nhiêu trẻ em đi cùng?</label>
+                    <input type="number" id="children" name="children" min="0" placeholder="Số trẻ em">
+                </div>
+            
+                <div style="grid-column: span 2;">
+                    <label for="notes">Ghi chú thêm:</label>
+                    <textarea id="notes" name="notes" placeholder="Ngày đặc biệt, sinh nhật, kỷ niệm,..."></textarea>
+                </div>
+            
+                <button type="submit">Đặt bàn ngay</button>
+                <p class="notice">Khách đặt tiệc hội nghị, liên hoan số lượng lớn liên hệ: 091031020</p>
+            </form>            
+        </div>
+    </div>
+    
+    
+    </div>  
+    <div id="footer-placeholder"></div>
+    <script src="com.js"></script>
+</body>
+</html>

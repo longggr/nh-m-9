@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+i {
+    font-style: normal;
+}
+
+.anh {
+    width: 1200px;
+    max-height: 500px;
+}
+
+.map {
+    display: block;
+    width: 1200px;
+    height: 500px;
+    margin: 50px auto 0 auto;
+    align-items: center;
+    border-radius: 30px;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/736x/16/e1/9b/16e19bc606f41e796bb9e65ac7c2ac69.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+span {
+    text-align: center;
+    display: block;
+    font-size: 35px;
+    color: orange;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #fcfcfcfa;
+    margin-bottom: 20px;
+
+}
+
+.truc_tiep {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#truc_tiep {
+    color: rgb(179, 105, 20);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Căn giữa */
+    gap: 15px;
+    margin-top: 50px;
+    font-size: 25px;
+    padding: 0 20px;
+    margin-bottom: 60px;
+}
+
+#truc_tiep li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 90%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#truc_tiep img {
+    width: 40px;
+    height: auto;
+}
+
+.contact-box {
+    width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+#lienhe {
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+
+#lienhe:hover {
+    color: orange;
+}
+
+.cuahangchinh {
+    margin-top: 100px;
+    color: white;
+    font-size: 22px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+#footer {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.79);
+    height: 320px;
+    margin-top: 338px;
+    padding: 0px 63px;
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#footer .box {
+    width: 250px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#footer .logo img {
+    height: 100px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#footer p {
+    text-align: justify;
+    color: #fff;
+    padding-top: 10px;
+}
+
+#footer .box h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+#footer .box .quick-menu {
+    margin-top: 40px;
+}
+
+#footer .box .quick-menu .item {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+#footer .box .quick-menu a {
+    color: #d0d0d0;
+}
+
+@media (max-width: 1200px) {
+
+    .anh,
+    .map,
+    .contact-box {
+        width: 95%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #truc_tiep {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .cuahangchinh {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+    }
+
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+
+    #footer .box {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #footer .box h3 {
+        text-align: center;
+    }
+
+    #footer p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    span {
+        font-size: 28px;
+    }
+
+    h1,
+    .truc_tiep {
+        font-size: 24px;
+    }
+
+    #truc_tiep {
+        font-size: 18px;
+        gap: 10px;
+    }
+
+    #truc_tiep li {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cuahangchinh {
+        font-size: 16px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .contact-box {
+        padding: 15px;
+    }
+
+    #footer {
+        padding: 20px;
+    }
+
+    #footer .logo img {
+        height: 80px;
+    }
+}

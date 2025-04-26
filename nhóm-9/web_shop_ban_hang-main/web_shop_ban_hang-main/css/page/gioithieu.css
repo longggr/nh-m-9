@@ -1,0 +1,587 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* header{
+    list-style: none;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .logo img{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding-left: 60px;
+}
+header .icons {
+    display: flex;
+    margin-right:80px;
+}
+header .icons a{
+    font-size: 1.8rem;
+    color: #fff;
+    margin-left: 2rem;
+    gap: 1rem;
+}
+header .icons a:hover{
+    color: orange;
+}
+nav{
+    background-color: #000;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .menu{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 20px;
+}
+.menu ul{
+    width: 1000px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 20px; 
+    padding-right: 20px;
+}
+.menu ul li{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}
+.menu ul li a{
+    width: 192px ;
+    height: 60px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 20px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.menu ul li a:hover{
+    background: orange;
+    color: #000;
+} */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    margin-top: 80px;
+    /* Adding margin to account for fixed header */
+}
+
+.content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.content h1 span {
+    color: #fbc02d;
+}
+
+.order-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fbc02d;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.order-btn:hover {
+    background-color: #e6a700;
+}
+
+.d1 {
+    display: grid;
+    background-color: #3e413e;
+    grid-template-columns: 40% 60%;
+    background-image: url('https://unatotovietnam.com/wp-content/uploads/2023/01/82962-old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall-rotated-1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#menukm {
+    background-color: rgb(198, 72, 72);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+#menukm:hover {
+    background-color: rgb(184, 134, 134);
+}
+
+#logo {
+    display: block;
+    width: 70px;
+    height: auto;
+    margin: 15px auto;
+}
+
+#vanban {
+    margin: 5px 40px;
+    font-size: 25px;
+    color: white;
+    font-family: roboto;
+}
+
+#anhdau {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.d2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px 20px;
+}
+
+.tren {
+    text-align: center;
+    color: orange;
+    font-family: roboto;
+}
+
+.duoi {
+    text-align: center;
+    font-family: roboto;
+}
+
+.d3 {
+    display: grid;
+    grid-template-rows: auto auto;
+    background-image: url('https://unatotovietnam.com/wp-content/uploads/2023/01/82962-old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall-rotated-1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ntren,
+.nduoi {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.dadang {
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    font-family: roboto;
+    margin-top: 50px;
+}
+
+#d3tren {
+    color: white;
+    font-family: roboto;
+    font-size: 25px;
+    margin: 50px 100px;
+}
+
+#d3duoi {
+    color: white;
+    font-family: roboto;
+    font-size: 27px;
+    margin: 40px 60px 20px 20px;
+}
+
+#a3 {
+    margin-left: 100px;
+    width: 600px;
+    height: 420px;
+}
+
+#a2 {
+    margin-left: 20px;
+    width: 600px;
+    height: auto;
+}
+
+.d4 {
+    display: grid;
+}
+
+#d4p1vb1,
+#d4p1vb2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#d4p1vb2 {
+    color: orange;
+}
+
+.d4p2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#a4,
+#a5 {
+    display: block;
+    margin-top: 10px;
+    margin-left: 200px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#a4 {
+    height: 500px;
+    width: auto;
+}
+
+#a5 {
+    width: 500px;
+    height: 500px;
+}
+
+.d4p2vb1 {
+    font-family: roboto;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.box1,
+.box2 {
+    border: 0px solid black;
+    box-shadow: 0 10px 16px black;
+    padding: 0 auto;
+    justify-self: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.d4p31 {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box3 {
+    border: 0px solid black;
+    box-shadow: 0 10px 16px black;
+    padding: 0 auto;
+    justify-self: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 55px;
+    margin-right: 10px;
+}
+
+#a6 {
+    width: 1344px;
+    height: auto;
+}
+
+#tanhuong {
+    font-family: roboto;
+    font-size: 30px;
+    margin: 15px auto;
+}
+
+.anhnho {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#item1,
+#item2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#a7,
+#a8,
+#a9 {
+    margin-left: 42px;
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.cumanh {
+    display: flex;
+    justify-content: center;
+}
+
+#a10,
+#a11,
+#a12,
+#a13 {
+    width: 360px;
+    height: 330px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.d5 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-image: url('https://unatotovietnam.com/wp-content/uploads/2023/01/82962-old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall-rotated-1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sapxong {
+    font-family: roboto;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30%;
+}
+
+.nutcuoi {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.nutcuoii {
+    background-color: rgb(198, 72, 72);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.nutcuoii:hover {
+    background-color: rgb(184, 134, 134);
+}
+
+.phancuoi {
+    border-left: 1px solid white;
+}
+
+#achuabiet {
+    width: 100%;
+    height: 700px;
+}
+
+@media (max-width: 850px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 80px;
+    }
+
+    .content {
+        padding-right: 0;
+    }
+
+    .content h1 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .order-btn {
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .d1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #3e413e;
+        background-image: url('https://unatotovietnam.com/wp-content/uploads/2023/01/82962-old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall-rotated-1.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #menukm {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #logo {
+        margin: 0 auto 10px;
+    }
+
+    #vanban {
+        font-size: 20px;
+    }
+
+    #anhdau,
+    #a2,
+    #a3,
+    #a4,
+    #a5,
+    #a6,
+    #a7,
+    #a8,
+    #a9,
+    #a10,
+    #a11,
+    #a12,
+    #a13 {
+        object-fit: contain;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .d2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px 0;
+    }
+
+    .tren,
+    .duoi {
+        text-align: center;
+    }
+
+    .d3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-image: url('https://unatotovietnam.com/wp-content/uploads/2023/01/82962-old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall-rotated-1.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    .dadan {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #d3tren,
+    #d3duoi {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .d4p2 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 100%;
+        margin: 10px 0;
+        box-shadow: 0 10px 16px black;
+    }
+
+    .d4p31 {
+        grid-template-columns: 1fr;
+    }
+
+    .cumanh {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #a7,
+    #a8,
+    #a9,
+    #a10,
+    #a11,
+    #a12,
+    #a13 {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .d5 {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-image: url('https://unatotovietnam.com/wp-content/uploads/2023/01/82962-old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall-rotated-1.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .sapxong {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .nutcuoi {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .nutcuoii {
+        width: 100%;
+        padding: 12px;
+        text-align: center;
+    }
+
+    .phancuoi {
+        border-left: none;
+    }
+
+    #achuabiet {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.form-box {
+    background-image: url(https://i.pinimg.com/736x/5c/cc/6d/5ccc6de828658c9a7f657dee1b60bd7e.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    padding: 30px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    max-width: 600px;
+
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    background-color: #000;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .menu {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu ul {
+    width: 1000px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu ul li {
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}
+
+.menu ul li a {
+    width: 192px;
+    height: 60px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 20px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu ul li a:hover {
+    background: orange;
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    padding: 20px;
+    background-image: url(https://cdn.sortiraparis.com/images/80/1467/987231-le-brunch-de-madame-brasserie-sur-la-tour-eiffel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #fcfcfcfa;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.form-grid {
+    display: grid;
+    /*chia cột*/
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-grid .notes {
+    grid-template-columns: 1fr;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #edf3efd3;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+input::placeholder,
+select {
+    color: #555;
+}
+
+button {
+    background-color: orange;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    grid-column: span 2;
+}
+
+button:hover {
+    background-color: #dfd21f;
+}
+
+.notice {
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+    grid-column: span 2;
+}
+
+@media (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        height: auto;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    nav .menu {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .menu ul li {
+        width: 100%;
+    }
+
+    .menu ul li a {
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 16px;
+        height: auto;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 100px 20px 20px;
+        height: auto;
+        align-items: stretch;
+    }
+
+    .form-box {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .form-grid>* {
+        grid-column: span 1 !important;
+    }
+
+    button,
+    .notice,
+    textarea {
+        grid-column: span 1;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+}

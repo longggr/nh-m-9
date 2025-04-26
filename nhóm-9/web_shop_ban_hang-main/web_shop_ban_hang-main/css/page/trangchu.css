@@ -1,0 +1,168 @@
+body, #wrapper  {
+    background-image: url(/assets/82962-old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall-rotated-1\ \(1\).jpeg);
+}
+
+#wp-products {
+    padding-top:116px;
+    padding-bottom: 78px;
+    padding-left:134px;
+    padding-right:134px;
+}
+#wp-products h2 {
+text-shadow:
+0 0 5px #fff,
+0 0 10px #fff,
+0 0 15px #ff7300,
+0 0 20px #ff7300,
+0 0 30px #ff7300;
+text-align: center;
+font-size: 36px;
+font-weight: 100;
+color: #fff;
+margin-bottom: 40px;
+padding-top: 50px;
+}
+
+
+
+/* Mặc định ≥ 1400px: giữ nguyên CSS gốc bạn đã viết */
+
+
+/* Nấc 1: 1200px - 1399px */
+@media (max-width: 1399px) {
+    .list-page {
+        width: 60%;
+    }
+
+    #saleoff {
+        height: 300px;
+    }
+
+    #saleoff .box-left span:nth-child(2) {
+        font-size: 110px;
+    }
+
+    #comment {
+        width: 90%;
+        height: auto;
+    }
+
+    #comment-body {
+        width: 100%;
+        height: auto;
+    }
+
+    #list-comment .item .text {
+        padding: 20px 40px;
+    }
+}
+
+
+/* Nấc 2: 992px - 1199px */
+@media (max-width: 1199px) {
+    .list-page {
+        width: 70%;
+    }
+
+    #saleoff {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #saleoff .box-left, #saleoff .box-right {
+        width: 100%;
+        height: auto;
+    }
+
+    #saleoff .box-left span:nth-child(1) {
+        font-size: 40px;
+    }
+
+    #saleoff .box-left span:nth-child(2) {
+        font-size: 100px;
+    }
+
+    #comment {
+        margin-top: 120px;
+    }
+
+    #list-comment .item .text {
+        padding: 20px 30px;
+    }
+}
+
+
+/* Nấc 3: 768px - 991px */
+@media (max-width: 991px) {
+    .list-page {
+        width: 80%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .list-page .item {
+        margin: 5px;
+        width: 34px;
+        height: 34px;
+    }
+
+    #saleoff .box-left span:nth-child(1) {
+        font-size: 32px;
+    }
+
+    #saleoff .box-left span:nth-child(2) {
+        font-size: 80px;
+    }
+
+    #comment h2 {
+        font-size: 28px;
+    }
+
+    #list-comment .item .text {
+        padding: 20px 20px;
+    }
+}
+
+
+/* Nấc 4: 501px - 767px */
+@media (max-width: 767px) {
+    .list-page {
+        width: 90%;
+    }
+
+    .list-page .item {
+        width: 32px;
+        height: 32px;
+        margin: 4px;
+    }
+
+    #saleoff .box-left h1 {
+        padding-top: 20px;
+    }
+
+    #saleoff .box-left span:nth-child(1) {
+        font-size: 28px;
+    }
+
+    #saleoff .box-left span:nth-child(2) {
+        font-size: 60px;
+    }
+
+    #comment h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    #list-comment .item {
+        padding-top: 30px;
+    }
+
+    #list-comment .item .text {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+
+/* Nấc 5: ≤ 500px — BỎ */
+
